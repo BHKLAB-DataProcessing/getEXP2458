@@ -6,7 +6,6 @@ library(Biobase)
 library(biomaRt)
 library(dplyr)
 library(SummarizedExperiment)
-#library(biocompute)
 
 #call CDF
 
@@ -391,7 +390,7 @@ saveRDS(EMEXP2458, "/pfs/out/EMEXP2458.rds")
 # #software/tools and its versions used for data object creation
 # software_prerequisites <- data.frame(
 #   "name" = c("Pachyderm", "Docker Image"),
-#   "version" = c("1.9.3", "v3"),
+#   "version" = c("1.9.3", "v1"),
 #   "uri" = c(
 #     "https://www.pachyderm.com", "https://hub.docker.com/r/bhklab/toxicogx"
 #   ),
